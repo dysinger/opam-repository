@@ -49,5 +49,5 @@ run MirageOS unikernels on the host system.
 x-maintenance-intent: [ "(latest)" ]
 x-ci-accept-failures: [ "centos-7" "opensuse-15.6" ]
 url {
-  src: "git+https://github.com/dysinger/solo5.git#afa542413ce9ab6ea19dfcf888395a1c345ff365"
+  src: "git+https://github.com/dysinger/solo5.git#548760c0080465f98623c02577380b59ca35cf06"
 }
