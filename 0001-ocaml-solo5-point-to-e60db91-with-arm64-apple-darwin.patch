@@ -1,0 +1,23 @@
+From b0c3d202908ce357831b03df2208733d1aedc54f Mon Sep 17 00:00:00 2001
+From: Tim Dysinger <tim@dysinger.net>
+Date: Tue, 14 Apr 2026 06:54:48 -0700
+Subject: [PATCH] ocaml-solo5: point to e60db91 with arm64-apple-darwin support
+
+---
+ packages/ocaml-solo5/ocaml-solo5.1.2.2/opam | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/packages/ocaml-solo5/ocaml-solo5.1.2.2/opam b/packages/ocaml-solo5/ocaml-solo5.1.2.2/opam
+index af6c7094..686c7297 100644
+--- a/packages/ocaml-solo5/ocaml-solo5.1.2.2/opam
++++ b/packages/ocaml-solo5/ocaml-solo5.1.2.2/opam
+@@ -51,5 +51,5 @@ synopsis: "OCaml cross-compiler to the freestanding Solo5 backend"
+ description:
+   "This package provides a OCaml cross-compiler, suitable for linking with a Solo5 unikernel."
+ url {
+-  src: "git+https://github.com/dysinger/ocaml-solo5.git#f2d989d8e4237364368a9547203e6b737ee1e8e8"
++  src: "git+https://github.com/dysinger/ocaml-solo5.git#e60db91"
+ }
+-- 
+2.51.2
+
