@@ -47,7 +47,7 @@ This package provides the Solo5 components needed to build and
 run MirageOS unikernels on the host system.
 """
 x-maintenance-intent: [ "(latest)" ]
-x-ci-accept-failures: [ "centos-7" "opensuse-15.6" ] # too old GCC compiler (OpenSUSE uses GCC 7 and we require GCC 10)
+x-ci-accept-failures: [ "centos-7" "opensuse-15.6" ]
 url {
-  src: "git+https://github.com/dysinger/solo5.git#ahv@v0.10.1"
+  src: "git+https://github.com/dysinger/solo5.git#8a302ce458241ef88d344de35f83b669a7fe3ca1"
 }
