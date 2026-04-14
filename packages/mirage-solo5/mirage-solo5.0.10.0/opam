@@ -46,11 +46,6 @@ by the [ocaml-freestanding](https://github.com/mirage/ocaml-freestanding) packag
 """
 x-maintenance-intent: [ "(latest)" ]
 url {
-  src:
-    "https://github.com/mirage/mirage-solo5/releases/download/v0.10.0/mirage-solo5-0.10.0.tbz"
-  checksum: [
-    "sha256=885ceb22ce5c7d1176dabded6690279abefd2e89429383eac6ee57a73d975480"
-    "sha512=75dfdb6f90f0f2b10e2c2581f4d4f57794dd0bf5fe09e929714977c803ddb6450d6ddbfb58d88a0dfd8c87ce4a3bc84bee764e1b8a0c3c3b6539b3e5f934eb39"
-  ]
+  src: "git+https://github.com/dysinger/mirage-solo5.git#ahv@v0.10.0"
 }
 x-commit-hash: "be95f5a5b1af6d19ce60c1ab2475d27c007f824a"
