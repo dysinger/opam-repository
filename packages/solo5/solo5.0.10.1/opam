@@ -50,4 +50,5 @@ x-maintenance-intent: [ "(latest)" ]
 x-ci-accept-failures: [ "centos-7" "opensuse-15.6" ]
 url {
   src: "https://github.com/dysinger/solo5/archive/548760c0080465f98623c02577380b59ca35cf06.tar.gz"
+  checksum: "sha256=e8bdda104e5a5290d6a29dd8a089b6ca97d892763c6668dbf3cb7081bf7ee3cc"
 }

@@ -47,5 +47,6 @@ by the [ocaml-freestanding](https://github.com/mirage/ocaml-freestanding) packag
 x-maintenance-intent: [ "(latest)" ]
 url {
   src: "https://github.com/dysinger/mirage-solo5/archive/38abc724c59b5689a61b2e5651a525bc616abb73.tar.gz"
+  checksum: "sha256=ca98d09bb31a91e090fa241cf1dc21d50d99e2d54797701f61018b51f24b00fc"
 }
 x-commit-hash: "be95f5a5b1af6d19ce60c1ab2475d27c007f824a"

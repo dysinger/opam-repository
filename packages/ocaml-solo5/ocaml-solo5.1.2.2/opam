@@ -52,4 +52,5 @@ description:
   "This package provides a OCaml cross-compiler, suitable for linking with a Solo5 unikernel."
 url {
   src: "https://github.com/dysinger/ocaml-solo5/archive/f2d989d8e4237364368a9547203e6b737ee1e8e8.tar.gz"
+  checksum: "sha256=565c21311666dfc5a2184a8fd97c06dfec51e9435051b9603db1c0996a3b149f"
 }
