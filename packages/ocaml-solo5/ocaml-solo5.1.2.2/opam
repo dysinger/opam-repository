@@ -18,7 +18,7 @@ build: [
   [make "%{name}%.install"]
 ]
 install: [
-  [make "install-ocaml"]
+  [make "install-ocaml" "WRAPPERS=1"]
 ]
 depopts: [
   "ocaml-option-no-flat-float-array"
@@ -51,6 +51,6 @@ synopsis: "OCaml cross-compiler to the freestanding Solo5 backend"
 description:
   "This package provides a OCaml cross-compiler, suitable for linking with a Solo5 unikernel."
 url {
-  src: "https://github.com/dysinger/ocaml-solo5/archive/f8bcd9c000d93cbedc3665769bddba1f5d91e78b.tar.gz"
-  checksum: "sha256=f6149fc9da4e3662498d21e7d0b691867164d4a1fe311706d1371a712c76af51"
+  src: "https://github.com/dysinger/ocaml-solo5/archive/5987fdccbb6e1d1b2f43c30e3f68ec6ea7d1e4b5.tar.gz"
+  checksum: "sha256=62ab55eebb8f2c7cdccb8d2c2f04a020db47063e551e95885be7324de5738001"
 }
