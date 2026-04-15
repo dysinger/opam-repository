@@ -56,10 +56,9 @@ securely and with finer control than with a full software stack.
 x-maintenance-intent: [ "(latest)" ]
 url {
   src:
-    "https://github.com/mirage/mirage/releases/download/v4.10.5/mirage-4.10.5.tbz"
+    "https://github.com/dysinger/mirage/archive/649a6fd2d099a4e72c5e203ca91588a98bf89dee.tar.gz"
   checksum: [
-    "sha256=c0b2deb8f9cfec44f9dbc256a18b50944f2aa8fcba84aef3165abebd23476e0c"
-    "sha512=e354f1cb4d12b424c22b9add0851a8750fe09f095ca97f0ec0360b18f7c69db60b155fdd18b0d7a6cea3432e63f20e4695a5bccaac3fc34588348e4311baa1c5"
+    "sha256=fd8ff628b2839e49e96d22645ceba9e6fe2366b761736f6e4dfa8c4731220cd7"
   ]
 }
 x-commit-hash: "7188bcb5efc768595b7f4b3f7cdb9d6e73e47992"
